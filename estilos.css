@@ -83,42 +83,35 @@ footer
 }
 nav
 {
-
 	background: #878787;
+	color: white;
 	font-size: 0.9em;
-
-
 }
-
 nav ul
 {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-
 }
-nav ul li
+nav ul li 
 {
 	display: inline-block;
-	margin: 0 1em 0 0;
+	margin: 0 1.2em 0 0;
 	vertical-align: top;
-
 }
-nav ul li a
+nav ul li a 
 {
-	color: white;
+	color:  white;
 	display: block;
 	padding: 0.5em 0;
 }
 nav #flechita_nav
 {
-	float: left;
-	margin: 0;
+	background: #22BCE0;
 }
 nav #flechita_nav a
 {
-	background: #22bce0;
-	padding: 0.5em 0;
+	padding: 0.5em 0.5em;
 	text-decoration: none;
 }
 nav #flechita_nav a:after
@@ -169,8 +162,22 @@ nav #publicar_nav a
 	color: #7a7a7a;
 	font-size: 0.9em;
 }
+#contenido .item .datos_item
+{
+	text-align: right;
+}
+#contenido .item .datos_item .comentarios_item
+{
+	background: #878787;
+	border-radius: 3px;
+	color: white;
+	margin: 0 0 0 2em;
+	padding: 3px;
+	text-decoration: none;
+}
 #contenido .item .datos_item .guardar_item
 {
+	margin: 0 1em;
 	text-decoration: none;
 }
 #contenido .item .datos_item .guardar_item:after
@@ -185,6 +192,7 @@ nav #publicar_nav a
 	background: #22bce0;
 	border-radius: 0.3em;
 	color: white;
+	float: left;
 	padding: 0.2em 0.5em;
 	text-decoration: none;
 }
