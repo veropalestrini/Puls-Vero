@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px)
+{
+	body
+	{
+		border: 3px solid red;
+		margin: 0 auto;
+		max-width: 1200px;
+	}
+	#contenido
+	{
+		width: 70%;
+	}
+	#bienvenida
+	{
+		display: block;
+		float: right;
+		width: 25%;
+	}
+}
